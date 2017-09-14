@@ -1,0 +1,14 @@
+.container {
+    margin: 25px auto;
+}
+
+@media screen and (max-width: 1450px) {
+    .container {
+        margin: 25px;
+    }
+}
+
+.responsive {
+    width: 100%;
+    overflow-y: hidden;
+}
