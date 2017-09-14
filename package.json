@@ -1,8 +1,8 @@
 {
-  "name": "alopex.cmdb.web",
+  "name": "cmdb.web",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Bevis <liyuanchi2202@tops001.com>",
+  "author": "songcheng <609463306@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
