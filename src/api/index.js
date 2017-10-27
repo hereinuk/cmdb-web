@@ -19,5 +19,7 @@ export default {
     syncRDS: Host + "/api/sync/rds",
     syncProject: Host + "/api/sync/project",
     searchUser: AuthHost + "/api/usersearch",
-    getUserById: (userId) => AuthHost + "/api/userinfo/" + userId
+    getUserById: (userId) => AuthHost + "/api/userinfo/" + userId,
+    envs: (projectId) => Host + "/api/project/" + projectId + "/envs",
+    env: (envId) => Host + "/api/env/" + envId
 }

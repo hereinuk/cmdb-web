@@ -2,7 +2,9 @@
   <div>
     <nav-menu></nav-menu>
     <section class="app-main">
-      <router-view></router-view>
+        <transition name="el-fade-in">
+            <router-view></router-view>
+        </transition>
     </section>
   </div>
 </template>
@@ -22,7 +24,7 @@
     margin-left: 250px;
     transform: translateZ(0);
   }
-  
+
   @media screen and (max-width: 765px) {
     .app-main {
       margin-left: 0px;
